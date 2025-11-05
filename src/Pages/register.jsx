@@ -3,8 +3,8 @@ import AuthLayout from "../components/Layouts/AuthLayout";
 
 const RegisterPage = () => {
   return (
-    <AuthLayout title="Register" description='daftar akun'>
-      <FormRegister />;
+    <AuthLayout title="Register" type='register' description='daftar akun'>
+      <FormRegister />
     </AuthLayout>
   );
 };
